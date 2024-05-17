@@ -25,10 +25,9 @@ export const Home = () => {
             const isLogged = await auth.signin(email, password);
             if (isLogged) {
                 navigate('/Profile');
-                enqueueSnackbar('Sucesso', { variant: "success" })
+                enqueueSnackbar('Login feito com sucesso', { variant: "success" })
             } else {
-                alert('po man, não deu certo! :)');
-                enqueueSnackbar('Erro', { variant: "error" })
+                enqueueSnackbar('Usuário e/ou senha incorreto(s)', { variant: "error" })
             }
         }
     }
