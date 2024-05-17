@@ -1,5 +1,5 @@
 <h1 align='center'>b2bit - Desafio FrontEnd</h1>
-<h4>Deploy:</h3>
+<h4>Deploy: https://6647abefd8a3d01f206cbea8--preeminent-otter-3ef769.netlify.app/</h3>
 
 ------------
 
